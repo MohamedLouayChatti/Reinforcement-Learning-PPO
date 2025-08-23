@@ -1,13 +1,6 @@
 # **Reinforcement Learning with Unity ML-Agents**
 
-This project demonstrates the use of **Proximal Policy Optimization (PPO)** to train an agent in a Unity environment. The agent interacts with the environment, learns from rewards, and improves its behavior over time. Key highlights of the project include:
-
-- **Unity ML-Agents Integration**: The Unity environment is used to simulate a 3D world where the agent performs actions and receives rewards.
-- **Reinforcement Learning Algorithms**: PPO is implemented to train the agent effectively.
-- **Custom Reward System**: The reward system is designed to encourage desired behaviors such as collecting green spheres, avoiding red spheres, and preventing falls.
-- **Evaluation and Visualization**: The agent's performance is evaluated over multiple episodes, and results are visualized with trend lines to track progress.
-
-This project serves as a practical example of combining Unity simulations with TensorFlow-based reinforcement learning to solve complex tasks.
+This project demonstrates the use of **Proximal Policy Optimization (PPO)** to train an agent in a Unity environment. The agent interacts with the environment, learns from rewards, and improves its behavior over time.
 
 ---
 
@@ -72,6 +65,7 @@ An episode in the environment ends under the following conditions:
 ## **Why PPO?**
 
 Proximal Policy Optimization (PPO) was chosen for this project due to its balance between simplicity and performance. PPO is well-suited for environments with discrete action spaces such as this one.
+*In this notebook, we are using tf_agents to implement PPO*
 
 ---
 
