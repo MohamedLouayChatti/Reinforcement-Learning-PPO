@@ -70,7 +70,7 @@ Proximal Policy Optimization (PPO) was chosen for this project due to its balanc
 ---
 
 ### **Video Example**
-[![Agent After Training](assets/eval_example_img.png)](assets/eval_example.mp4)
+[![Agent After Training](assets/eval_example_img.png)](assets/eval_example.gif)
 
 The video above demonstrates the agent's behavior after training. The agent successfully collects green spheres, avoids red spheres, and stays within the platform boundaries.
 
