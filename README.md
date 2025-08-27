@@ -106,4 +106,4 @@ To train or test the model, the **Unity Editor** must also be installed. This pr
 
 ---
 
-This project highlights the potential of reinforcement learning in solving complex tasks within simulated environments. Feel free to explore, modify, and extend the project to suit your needs.
+This project highlights the potential of reinforcement learning in solving complex tasks within simulated environments.
