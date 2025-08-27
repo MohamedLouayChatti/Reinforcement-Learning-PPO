@@ -84,4 +84,26 @@ While the agent performs decently, there are areas for improvement:
 
 ---
 
+## **Requirements**
+
+This project was developed using **Python 3.10** (specifically version **3.10.12**) and requires the following dependencies:
+
+- **NumPy**: `1.23.5`
+- **TensorFlow**: `2.15.0` (with CUDA support for GPU acceleration)
+- **Unity ML-Agents Environments**: `1.1.0`
+- **TF-Agents**: `0.19.0`
+- **Matplotlib**: `3.10.5`
+
+All dependencies are listed in the `requirements.txt` file and can be installed directly using `pip` through the notebook.
+
+---
+
+## **Unity Environment**
+
+To train or test the model, the **Unity Editor** must also be installed. This project was developed using **Unity version 6000.0.55f1**. The Unity project used for this environment can be found at the following repository:
+
+[Unity Project Repository](https://github.com/MohamedLouayChatti/RL-PPO-Unity-Sim)
+
+---
+
 This project highlights the potential of reinforcement learning in solving complex tasks within simulated environments. Feel free to explore, modify, and extend the project to suit your needs.
